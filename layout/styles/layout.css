@@ -15,7 +15,7 @@ File: Layout CSS
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
-.row1{border:solid; border-width:1px 0;}
+.row1{border:solid; border-width:1px 0;background-image: url("./images/demo/backgrounds/01.png")}
 .row2, .row2 a{}
 .row3, .row3 a{}
 .row4, .row4 a{}
@@ -46,10 +46,22 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{}
+#header{
+	border-bottom: 1px solid black;
+}
 
-#header #logo{margin:22px 0 0 0;}
-#header #logo h1{padding:0; font-size:2.2rem; text-transform:uppercase;}
+#header #logo{margin:1.2em 0 0 0;}
+#header #logo h1{  padding: 1em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #b3b9db56;
+	color: rgb(47, 38, 168);
+	border-radius: 15px;
+
+}
+
 
 
 /* Page Intro
